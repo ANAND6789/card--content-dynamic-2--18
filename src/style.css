@@ -1,0 +1,171 @@
+body {
+    margin: 55px;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+.row-cols-1 {
+    flex-wrap: wrap;
+  }
+  
+  .align-items-md-center {
+    align-items: center;
+  }
+  
+  .g-5 {
+    gap: 1.25rem;
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .align-items-start {
+    align-items: flex-start;
+  }
+  
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+  }
+  
+  .text-body-emphasis {
+    color: #F5F5F5;
+    margin-top: 10px;
+ }
+  
+  .text-body-secondary {
+    color: #000;
+    margin-top: 10px;
+
+  }
+  .text-body-para{
+    color:#2960ec;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  /* .btn-lg {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: 0.5rem 1rem;
+  }
+   */
+   
+  .feature-icon-small {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #ed0d0d;
+  }
+  
+  .d-inline-flex {
+    display: inline-flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .text-bg-primary {
+    background-color: #007bff;
+  }
+  
+  .bg-gradient {
+    background: linear-gradient(#007bff, #0056b3);
+  }
+  
+  .fs-4 {
+    font-size: 1.5rem;
+  }
+  
+  .rounded-3 {
+    border-radius: 0.3rem;
+  }
+  
+  .fw-semibold {
+    font-weight: 600;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0;
+  }
+
+  /* fade-content */
+  .fade-bottom {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeBottom 1s ease-out forwards;
+  }
+  
+  @keyframes fadeBottom {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 200px;
+    height: 230px;
+    background-color: #FFF6F4;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+    
+  .card:hover {
+    background-color: #FFD6A5;
+  }
+  
+  .card-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .card-svg {
+    fill: #000; /* Initial color */
+    transition: fill 0.3s ease;
+  }
+  
+  .card:hover .card-svg {
+    fill: #884A39; /* Hover color */
+  }
+  
+  .video-container{
+    display: flex;
+  }
+  .video-title{
+    margin-left: 10px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+
+  }
+  
